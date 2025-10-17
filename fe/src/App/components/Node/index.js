@@ -11,6 +11,8 @@ export default function NodeDefault(){
             <Connectors type= "output" direction="left"/>
             <span>Etapa</span>
             <Connectors type= {type} direction={direction}/>
+            <Connectors type= {type} direction="top"/>
+            <Connectors type= {type} direction="bottom"/>
         </Container>
     )
 }
